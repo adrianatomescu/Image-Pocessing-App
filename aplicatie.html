@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Image Processing App for Dog Images">
+    <title>Aplicație</title>
+    <link rel="stylesheet" href="aplicatie.css"> 
+</head>
+<body>
+    <div class="content">
+        <div class="json-container">
+            <div class="details-container" id="json-info">
+                <!-- Aici vor fi afișate informațiile JSON -->
+            </div>
+            <canvas id="original-canvas" width="400" height="300"></canvas>
+        </div>
+        <div class="button-container">
+            <button id="process-button" class="button">Procesare imagine</button>
+            <button id="contact-button" class="contact-button">Contact</button>
+        </div>
+        <div class="processed-container">
+            <canvas id="processed-canvas" width="400" height="300" style="display:none;"></canvas>
+            <div id="execution-time">Execution time: N/A</div>
+        </div>
+    </div>
+    <script defer src="aplicatie.js"></script>
+</body>
+
+</html>

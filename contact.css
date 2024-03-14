@@ -1,0 +1,63 @@
+/* Stilizare pentru pagina de contact */
+body {
+    background-image: url('background2.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #f0f0f0; /* Culoarea de fundal pentru întregul corp */
+    font-family: 'Roboto', sans-serif;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white; /* Culoarea de fundal pentru casetă */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 80%;
+    margin-top: 50px; /* spațierea între meniu și conținut */
+}
+
+/* Stilizare pentru secțiunea e-mail și rețelele de socializare */
+section {
+    margin-bottom: 20px;
+    text-align: left;
+    max-width: 80%; /* Ajustarea lățimii maxime pentru secțiuni */
+}
+
+section h2 {
+    margin-bottom: 10px;
+}
+
+section p {
+    margin-bottom: 0;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons li {
+    margin-right: 10px;
+}
+
+.social-icons li:last-child {
+    margin-right: 0;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #333;
+}
